@@ -23,6 +23,7 @@ for word in wordsToFind:
         print(word, 'is not in the dictionary')
 print('')
 print() # another way to print blank line
+print()
 
 ###########  4.1.6.6 here - methods on Dictionaries   ########
 newDict = {"cat": "chat", "dog": "chien", "horse": "cheval", 'chicken': 'gallina', 'house': 'casa'}
