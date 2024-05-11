@@ -1,12 +1,12 @@
 # Start
 from random import randrange
 
-# def DisplayBoard(board):
+def DisplayBoard(board):
 #
 # the function accepts one parameter containing the board's current status
 # and prints it out to the console
 #
-board = 
+    board =
 print("+", "-"*7, "+", "-"*7, "+", "-"*7, "+", sep='')
 
 print("|", " "*7, "|", " "*7, "|", " "*7, "|", sep='')
