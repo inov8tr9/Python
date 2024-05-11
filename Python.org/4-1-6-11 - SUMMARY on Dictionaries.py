@@ -13,20 +13,24 @@ print('')
 
 for item in farmDict:  # basically a listing of keys
     print(item)
+print()
 
 for key, value in farmDict.items():  # iterate a list using 'items'
     print("Eng/Span ->", key, ":", value)
+print()
 
 if 'slob' in farmDict:  # see if a value is in that list
     print("Yes it's in here.")
 else:
     print("No, that's not in here.")
+print()
 
 copyFarmDict = farmDict.copy()  # COPY a dict to a new one
 print('farmDict is :', farmDict)
 print('copyFarmDict is; ', copyFarmDict)
+print()
 
 del copyFarmDict
 print('farmDict is :', farmDict)
-# print('copyFarmDict is: ', copyFarmDict)  # THIS fails because its been deleted.
+print('copyFarmDict is: ', copyFarmDict)  # THIS fails because its been deleted.
 
